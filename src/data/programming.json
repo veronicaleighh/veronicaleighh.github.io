@@ -1,0 +1,35 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "css.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "python.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "javascript.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "c++.png"
+    },
+    {
+      "title": "C#",
+      "imageSrc": "csharp.png"
+    },
+    {
+      "title": "PHP",
+      "imageSrc": "php.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "sql.png"
+    }
+  ]
+  

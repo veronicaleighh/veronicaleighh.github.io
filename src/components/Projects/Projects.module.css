@@ -1,0 +1,127 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 50px;
+  color: var(--color-text);
+  background-color: rgba(52, 58, 64, 0.3);
+  padding: 25px;
+  border-radius: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
+}
+
+.title {
+    color: var(--color-primary);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  z-index: 1;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.dropdown {
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+.dropdownButton {
+  background: none;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  color: var(--color-text);
+  font-weight: 500;
+  z-index: 1;
+}
+
+.dropdownButton:hover {
+  background-color: rgba(52, 58, 64, 0.3);
+  border-radius: 15px;
+}
+
+.dropdownContent {
+  display: flex; /* Align children horizontally */
+  flex-wrap: wrap; /* Allow wrapping to next line if needed */
+  gap: 1rem; /* Adjust space between cards */
+  justify-content: center; /* Center items horizontally */
+  overflow: hidden; /* Hide overflow content during transition */
+  opacity: 0; /* Start with hidden content */
+  max-height: 0; /* Start with collapsed content */
+  transition: opacity 0.3s ease, max-height 0.3s ease; /* Smooth transition for opacity and max-height */
+  z-index: 1;
+}
+
+.dropdownContent.show {
+  opacity: 1; /* Fully visible */
+  max-height: 1000px; /* Adjust to fit your content; large enough to show content */
+}
+
+/* Add responsive styles if needed */
+@media (max-width: 768px) {
+  .dropdownContent {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.topBlur {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: 2100px;
+  left: -2vw;
+  border-radius: 764px;
+  background: rgba(255, 196, 214, 0.5);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 2100px;
+  right: 2vw;
+  border-radius: 764px;
+  background: rgba(255, 200, 221, 0.5);
+  filter: blur(100px);
+  z-index: 0;
+}

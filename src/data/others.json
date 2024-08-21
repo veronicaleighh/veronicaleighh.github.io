@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Figma",
+        "imageSrc": "figma.png" 
+    },
+    { "title": "Android Studio", "imageSrc": "androidstudio.png" },
+    { "title": "Unity", "imageSrc": "unity.png" }
+    
+]

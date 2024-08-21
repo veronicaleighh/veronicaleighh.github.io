@@ -1,0 +1,14 @@
+[
+    {
+    "title": "MySQL",
+    "imageSrc": "mysql.png" 
+    },
+    {
+    "title": "Google Firebase",
+    "imageSrc": "firebase.png" 
+    },
+    {
+    "title": "PhpMyAdmin",
+    "imageSrc": "phpmyadmin.png" 
+    }
+]

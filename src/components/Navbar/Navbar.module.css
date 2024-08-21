@@ -1,0 +1,98 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  z-index: 2;
+  margin: 0 10%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+  align-items: center; /* Ensures icon and text are aligned */
+}
+
+.menuItems a {
+  font-size: 18px;
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 8px;
+}
+
+.menuItems a:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  font-weight: 500;
+}
+
+.material-icons-outlined {
+  font-size: 18px; /* Adjust icon size if necessary */
+}
+
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(255, 182, 193);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 120, 150, 0.3) 0%,
+      rgba(255, 120, 150, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Data Manipulation of Taylor Swift Spotify Dataset",
+    "imageSrc": "projects/taylorswift.jpeg",
+    "description": "Final Requirement for Introduction to Big Data using PySpark",
+    "skills": ["PySpark (Python)"],
+    "source": "https://drive.google.com/file/d/1qRQjDp135r9PXZOc0WCarL8g8TxYJ2gN/view?usp=drive_link"
+  },
+  {
+    "title": "Data Visualization of Waze Dataset",
+    "imageSrc": "projects/wazedataset.png",
+    "description": "Exploratory Analysis of Traffic Paterns in Taguig using dataset from Waze",
+    "skills": ["Tableau"],
+    "source": "https://drive.google.com/file/d/1KZaXJvUZw_gMHfrOXrOz0Y4L7-dFb4OZ/view?usp=drive_link"
+  },
+  {
+    "title": "World Unemployment Rate (1991-2021)",
+    "imageSrc": "projects/unemployment.jpg",
+    "description": "Exploratory Data Analysis of World Unemployment Rate (1991-2021)",
+    "skills": ["Python Libraries"],
+    "source": "https://drive.google.com/file/d/1r0lBf12u4NAqmdKIkya49GoCUpesSSlp/view?usp=drive_link"
+  }
+]

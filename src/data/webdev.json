@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Homeowner Dashboard",
+    "imageSrc": "projects/dashboard.png",
+    "description": "Dashboard for 'Home Defense Rover: An Innovative Intruder Deterrent and Notification System'",
+    "skills": ["HTML", "CSS", "Firebase"],
+    "demo": "https://home-defense-rover-2024.web.app/",
+    "source": "https://github.com/The-Robo-Hobo/Robo-Hobo-Docs/tree/f3984ced51cc830d083f9679881b46fff44008bf/robo_webserver"
+  },
+  {
+    "title": "empowHERment",
+    "imageSrc": "projects/empowherment.png",
+    "description": "Final Project for CET 5 (Web Development): 'empowHERment: Women's Health and Wellness Products'",
+    "skills": ["HTML", "CSS", "PHP"],
+    "source": "https://github.com/veronicaleighh/empowHERment"
+  },
+  {
+    "title": "Coffee Shop",
+    "imageSrc": "projects/coffeeshop.png",
+    "description": "Coursework Requirement for CET 5 (Web Development): Developed a website for 'Jake's Coffee'",
+    "skills": ["HTML", "CSS"],
+    "source": "https://github.com/veronicaleighh/CoffeeShop"
+  },
+  {
+    "title": "Login Page",
+    "imageSrc": "projects/login.png",
+    "description": "Coursework for CET 5 (Web Development)",
+    "skills": ["HTML", "CSS"],
+    "source": "https://github.com/veronicaleighh/LoginPage"
+  },
+  {
+    "title": "PUP Kiosk Map",
+    "imageSrc": "projects/pupmap.png",
+    "description": "Coursework for CET 5 (Web Development)",
+    "skills": ["HTML", "CSS"],
+    "source": "https://github.com/veronicaleighh/PUPKioskMap"
+  },
+  {
+    "title": "eYouth",
+    "imageSrc": "projects/eyouth.png",
+    "description": "Final Project for CET 4 (Mobile Application Development)",
+    "skills": ["Android Studio"],
+    "source": "https://github.com/veronicaleighh/eYouth"
+  }
+]

@@ -1,0 +1,95 @@
+.container {
+    position: relative;
+    background-color: rgba(52, 58, 64, 0.3);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 130px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .title {
+    color: var(--color-primary);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  
+  .aboutImage {
+    width: 43%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  .textSection {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: var(--color-text);
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  .educationSection {
+    margin-top: 5px;
+  }
+  
+  .educationTitle {
+    font-size: 20px;
+    color: var(--color-primary);
+  }
+  
+  .educationList {
+    color: var(--color-text);
+    list-style: none;
+    padding: 0;
+  }
+  
+  .educationLists {
+    padding: 1px 0;
+    display: list-item;
+  }
+  
+  .level {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .program {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .school {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffeef2;
+  }
+
+  .award {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .year {
+    font-size: 11px;
+  }
+
+  .other {
+    font-size: 13px;
+    font-weight: 500;
+  }

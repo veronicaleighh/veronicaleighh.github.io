@@ -1,0 +1,35 @@
+[
+    {
+      "role": "UI Creatives Intern",
+      "company": "DevKinetics, Inc.",
+      "startDate": "August 2022",
+      "endDate": "September 2022",
+      "experiences": ["Wrote articles and created publication materials for the blogs",
+      "Developed digital marketing plan and branding kit for the rebranding of a website",
+      "Managed the existing accounts of the company in various social media sites and platforms"
+      ]
+    },
+    {
+      "role": "IT Intern",
+      "company": "Cerebro Solutions Inc.",
+      "startDate": "August 2023",
+      "endDate": "September 2023",
+      "experiences": ["Monitored and tracked the user analytics of each school server on Cerebro LMS",
+      "Converted HTML files to digital contents through iSpring",
+      "Developed and deployed instructional modules and course templates on Cerebro LMS",
+      "Created publication materials for promoting the Cerebro Tech Support Facebook page"]
+    },
+    {
+      "role": "IT Intern",
+      "company": "PJ Lhuillier Group of Companies Inc.",
+      "startDate": "September 2023",
+      "endDate": "November 2023",
+      "experiences": [
+        "Assisted in troubleshooting and fixing the application",
+        "Created a user manual documentation of Play Store and App Store for application turnover",
+        "Reviewed the code of an application for quality assurance before the deployment",
+        "Filtered and whitelist the IP addresses with an access to a certain server"
+      ]
+    }
+  ]
+  

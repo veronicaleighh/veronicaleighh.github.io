@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Tableau",
+      "imageSrc": "tableau.png"
+    },
+    {
+      "title": "Power BI",
+      "imageSrc": "powerbi.png"
+    },
+    {
+      "title": "RStudio",
+      "imageSrc": "rstudio.png"
+    }
+  ]
+  
